@@ -16,6 +16,8 @@
 
 // console.log(result);
 
+// Нужно выбрыть отрезок с большим значением
+
 // const a = 5;
 // const b = 4;
 // const c = 30;
@@ -34,18 +36,36 @@
 //   console.log("c");
 // }
 
-const userRole = "user";
+// const userRole = "user";
 
-switch (userRole) {
-  case "admin":
-    console.log("Это администорар, он любит кофе");
-    break;
+// switch (userRole) {
+//   case "admin":
+//     console.log("Это администорар, он любит кофе");
+//     break;
 
-  case "manager":
-    console.log("Это менеджер, он любит чай");
-    break;
+//   case "manager":
+//     console.log("Это менеджер, он любит чай");
+//     break;
 
-  case "user":
-    console.log("Это администорар, он любит лимрнад");
-    break;
+//   case "user":
+//     console.log("Это администорар, он любит лимрнад");
+//     break;
+// }
+
+const temperature = +36;
+
+if (temperature <= -30) {
+  console.log("Оставайтесь дома!");
+} else if (temperature > -30 && temperature <= -10) {
+  console.log("Сегодня холодно");
+} else if (temperature > -10 && temperature <= +5) {
+  console.log("Не холодно");
+} else if (temperature > +5 && temperature <= +15) {
+  console.log("Тепло");
+} else if (temperature > +15 && temperature <= +25) {
+  console.log("Очень тепло");
+} else if (temperature > +25 && temperature < +35) {
+  console.log("Жарко");
+} else {
+  console.log("Пекло!");
 }
