@@ -52,20 +52,32 @@
 //     break;
 // }
 
-const temperature = +36;
+// const temperature = +36;
 
-if (temperature <= -30) {
-  console.log("Оставайтесь дома!");
-} else if (temperature > -30 && temperature <= -10) {
-  console.log("Сегодня холодно");
-} else if (temperature > -10 && temperature <= +5) {
-  console.log("Не холодно");
-} else if (temperature > +5 && temperature <= +15) {
-  console.log("Тепло");
-} else if (temperature > +15 && temperature <= +25) {
-  console.log("Очень тепло");
-} else if (temperature > +25 && temperature < +35) {
-  console.log("Жарко");
-} else {
-  console.log("Пекло!");
-}
+// if (temperature <= -30) {
+//   console.log("Оставайтесь дома!");
+// } else if (temperature > -30 && temperature <= -10) {
+//   console.log("Сегодня холодно");
+// } else if (temperature > -10 && temperature <= +5) {
+//   console.log("Не холодно");
+// } else if (temperature > +5 && temperature <= +15) {
+//   console.log("Тепло");
+// } else if (temperature > +15 && temperature <= +25) {
+//   console.log("Очень тепло");
+// } else if (temperature > +25 && temperature < +35) {
+//   console.log("Жарко");
+// } else {
+//   console.log("Пекло!");
+// }
+
+// let i = 0;
+// for(; i <= 3; i++){
+// console.log(i); //0,1,2,3
+// }
+// console.log(i);
+
+// for (let i = 1; i <= 11; i += 1) {
+//   if (i % 2 === 0) continue;
+//   console.log(i);
+// }
+
